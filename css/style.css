@@ -40,6 +40,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     line-height: 70px;
+	color: white;
 }
 
 h4 {
@@ -295,10 +296,22 @@ a.active {
 }
 
 
+.image-details:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+}
+
+
 /* about section
 ==================================================*/
 
 #about {
+	background: linear-gradient(to right, #434343 0%, black 100%);
     padding: 100px 0;
 }
 
@@ -322,7 +335,7 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #f3f3f3
+    background: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 .experience-row {
@@ -336,28 +349,32 @@ a.active {
     letter-spacing: 2px;
     color: #425BB5;
     font-size: 16px;
-    font-weight: bold
+    font-weight: bold;
+	color: white;
 }
 
 .experience-row p {
     color: #888;
     margin-top: 20px;
     font-size: 15px;
+	color: white;
 }
 
 .experience-row .date {
     color: #000;
     font-size: 17px;
+	color: white;
 }
 
 .timeline {
     padding-left: 0;
     list-style: none;
     position: relative;
+	color: white;
 }
 
 .timeline:before {
-    background-color: black;
+    background-color: white;
     content: '';
     margin-left: -1px;
     position: absolute;
@@ -365,6 +382,7 @@ a.active {
     left: 2em;
     width: 2px;
     height: 100%;
+	
 }
 
 .timeline-event {
@@ -391,11 +409,13 @@ a.active {
 
 .timeline-event-copy h3 {
     font-size: 1.75em;
+	color: white;
 }
 
 .timeline-event-copy h4 {
     font-size: 1.2em;
     margin-bottom: 1.2em;
+	color: white;
 }
 
 .timeline-event-copy strong {
@@ -404,6 +424,7 @@ a.active {
 
 .timeline-event-copy p:not(.timeline-event-thumbnail) {
     padding-bottom: 1.2em;
+	color: white;
 }
 
 .timeline-event-icon {
@@ -446,6 +467,7 @@ a.active {
 ==================================================*/
 
 #projects {
+	background: linear-gradient(to right, #434343 0%, black 100%);
     padding: 100px 0;
 }
 
@@ -630,7 +652,7 @@ a.active {
 
 #contactme {
     padding: 100px 0;
-    background: #f3f3f3
+    background: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 #contactme-form input,
@@ -723,7 +745,6 @@ fieldset {
 #submit {
     background-color: #425BB5;
     color: #fff;
-    padding: 10px 40px;
     border-radius: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -733,7 +754,6 @@ fieldset {
          
 .btn-grad {
 background-image: linear-gradient(to right, #425BB5 0%, #182848  51%, #425BB5  100%);
-margin: 10px;
 padding: 15px 40px;
 text-align: center;
 text-transform: uppercase;
@@ -797,6 +817,7 @@ text-decoration: none;
         font-family: 'Playfair Display', serif;
         font-size: 50px;
         line-height: 50px;
+		color: white
     }
     #home,
     .disply-table {
